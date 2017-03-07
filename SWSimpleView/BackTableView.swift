@@ -35,4 +35,13 @@ class BackTableVC: UITableViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let DestVC = segue.destination as! ViewController
+        var indexPath = self.tableView.indexPathForSelectedRow;
+        DestVC.varView = (indexPath?.row)!;
+         
+        //DestVC.varView = index.
+    }
+    
+    
 }
