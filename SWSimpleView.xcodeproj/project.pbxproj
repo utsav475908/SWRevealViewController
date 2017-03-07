@@ -16,6 +16,7 @@
 		9AC899501E6E709200D077AE /* SWSimpleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8994F1E6E709200D077AE /* SWSimpleViewUITests.swift */; };
 		9AC899601E6E742B00D077AE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8995F1E6E742B00D077AE /* SWRevealViewController.m */; };
 		9AC899631E6E769800D077AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC899621E6E769800D077AE /* UIKit.framework */; };
+		A99BCD2C1E6E93710007B265 /* BackTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BCD2B1E6E93710007B265 /* BackTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9AC8995E1E6E742B00D077AE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		9AC8995F1E6E742B00D077AE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		9AC899621E6E769800D077AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A99BCD2B1E6E93710007B265 /* BackTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				9AC8992F1E6E709200D077AE /* AppDelegate.swift */,
 				9AC899311E6E709200D077AE /* ViewController.swift */,
 				9AC899331E6E709200D077AE /* Main.storyboard */,
+				A99BCD2B1E6E93710007B265 /* BackTableView.swift */,
 				9AC899361E6E709200D077AE /* Assets.xcassets */,
 				9AC899381E6E709200D077AE /* LaunchScreen.storyboard */,
 				9AC8993B1E6E709200D077AE /* Info.plist */,
@@ -281,6 +284,7 @@
 			files = (
 				9AC899321E6E709200D077AE /* ViewController.swift in Sources */,
 				9AC899301E6E709200D077AE /* AppDelegate.swift in Sources */,
+				A99BCD2C1E6E93710007B265 /* BackTableView.swift in Sources */,
 				9AC899601E6E742B00D077AE /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +535,7 @@
 				9AC899561E6E709200D077AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC899571E6E709200D077AE /* Build configuration list for PBXNativeTarget "SWSimpleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +544,7 @@
 				9AC899591E6E709200D077AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC8995A1E6E709200D077AE /* Build configuration list for PBXNativeTarget "SWSimpleViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +553,7 @@
 				9AC8995C1E6E709200D077AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
