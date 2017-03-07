@@ -26,7 +26,7 @@ class BackTableVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
+        var cell = tableView.dequeueReusableCell(withIdentifier: TableArray[indexPath.row], for: indexPath) as UITableViewCell
         
         cell.textLabel?.text = TableArray[indexPath.row];
         
@@ -35,13 +35,7 @@ class BackTableVC: UITableViewController {
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let DestVC = segue.destination as! ViewController
-        var indexPath = self.tableView.indexPathForSelectedRow;
-        DestVC.varView = (indexPath?.row)!;
-         
-        //DestVC.varView = index.
-    }
+    
     
     
 }
